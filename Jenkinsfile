@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git 'https://github.com/MukeshAnbazhagan / my-docker-app.git'
+                git 'https://github.com/MukeshAnbazhagan/my-docker-app.git'
             }
         }
 
